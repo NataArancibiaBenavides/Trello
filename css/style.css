@@ -11,28 +11,32 @@ body{
 .barra{
 	position: absolute;
 	width: 100%;
-	height: 70px;
+	height: 60px;
 	background-color:#2A7B98; 
 
 }
 .barra img{
 	position: absolute;
     width: 100px;
-    height: 70px;
-    margin-left: 500px;
+    height: 60px;
+    margin-left: 650px;
     margin-top: 0px;
+
 
 }
 .barra input{
    position: absolute;
-   left:100px;
-   top:5px;
-   background-color: #E4E4E4 ;
+   left:200px;
+   top:10px;
+   background-color:#B5D2F5;
    border-style: none;
-   width: 250px;
-   height: 55px;
+   width: 200px;
+   height:40px;
+   border-radius: 5px;
 
 }
+
+
 .barraTotal{
 	top:150px;
 	left:80px;
@@ -45,9 +49,167 @@ body{
 	white-space: nowrap;
 }
 
-textarea{
+.barraTotal form{
 	position: absolute;
 	top:100px;
 	left:80px;
 
+}
+.barraTotal input{
+	position: absolute;
+	top:100px
+	left:90px
+	width:100px
+	background-color:#0DE86A;
+}
+
+#contenedor {
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 300px;
+	display: inline-block;
+	white-space: normal;
+}
+
+.text{
+	white-space: nowrap;
+}
+
+
+.nuevaInfo {
+	position: absolute;
+	top:100px;
+	left: 100px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+	background-color:#DAE8FC;
+	border-radius: 4px;
+	border-style: none;
+	color: #1C0606;
+	cursor: pointer;
+}
+
+.nuevaInfo:hover {
+	background-color: #16577E;
+}
+
+.form {
+	height: 80px;
+	border-radius: 6px;
+	display: none;
+}
+
+#caja1 {
+	background-color: #D4DEE8;
+	border-radius: 4px;
+	padding: 3px;
+}
+
+#input{
+	width: 180px;
+    padding: 2px;
+    height: 30px;
+    cursor: text;
+    text-align: center;
+    border-color: #BEBABA;
+    border-style: double;
+    background-color: #D1D8DF;
+}
+
+.boton2 {
+	position: absolute;
+	width: 80px;
+    height: 25px;
+    border-radius: 7px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: white;
+    background-color: #5EE73F;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.etiqueta {
+	width: 290px;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #E2E4E6;
+    border-style: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #4F4F4F;
+}
+
+.añadirEtiqueta {
+	width: 300px;
+	height: 36px;
+	color: #8C8C8C;
+	cursor: pointer;
+	padding: 12px;
+	text-align: left;
+	background-color: #E2E4E6;
+	border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+	border-style: none;
+}
+
+.añadirEtiqueta:hover {
+	text-decoration: underline;
+}
+
+.nuevoContenedor{
+	margin-left: 5px;
+	margin-top: 10px;
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.formE{
+	background-color: #E2E4E6;
+	border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.textareaForm {
+	width: 95%;
+    margin-left: 15px;
+    font-size: 35px;
+}
+
+.botonF {
+	width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    margin-left: 14px;
+    cursor: pointer;
+    color: white;
+    background-color: #5DB449;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.nombrenuevaEtiqueta {
+	width: 275px;
+    height: 25px;
+    margin-left: 12px;
+    padding: 4px;
+    color: #4d4d4d;
+    text-align: left;
+    border-radius: 4px;
+    background-color: #FFF;
+}
+
+.fondo {
+	width: 300px;
+	height: 40px;
+	background-color: #E2E4E6;
 }

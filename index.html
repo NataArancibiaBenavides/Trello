@@ -6,20 +6,28 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
 <body>
-   <div id="contenedor">
+<!-- clase barra agrega el barra superior donde va el logo de Trello , los iconos y un input-->
    <div class="barra">
-   <input type="text"><i class="fa fa-search" aria-hidden="true"></i>
+   <input type="text"><!--<i class="fa fa-search" aria-hidden="true"></i>-->
    <img src="img/logo.jpg" alt="">
    </div>
-   </div>
-   <div class="barraTotal">
-   <textarea class="tablainput" aria-label="Probada (otra lista)" spellcheck="false" dir="auto" maxlength="512" style="overflow: hidden; word-wrap: break-word; height: 24px;">Nombre de lista</textarea>
-
-
-   </div>
    
+   <!-- primera caja para agregar lista-->
+   <div class="barraTotal">
+    
+    <!-- div con la primera caja donde se añadira la primera lista-->   
+       <div id="contenedor" class="text">
+           <button id="primerBoton" class="nuevaInfo">Añade una Lista</button>
+            <form id="caja1" class="classCaja1">
+    <!--input para generar lista -->        
+           <input type="lista" id="input" placeholder= "añade una lista" >
+           <button id="segundoBoton" class="boton2">Guardar</button>
+        </form>
+      </div> 
+</div>
 
-
+   
+ 
 
 <script type="text/javascript" src="js/app.js"></script>	
 </body>
