@@ -33,7 +33,7 @@ Mostrar el formulario nuevamente debajo de la última tarea añadida.
 ##Segundo Paso 
 
 Crear un archivo js y css
-en js utilizar el Dom para agregar las funciones requeridas a la lista de trello 
+en js utilizar el Dom para agregar las funciones requeridas a la lista de trello .
 
 
 
